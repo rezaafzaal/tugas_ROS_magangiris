@@ -1,0 +1,11 @@
+<launch>
+    <param name="/turtlesim/background_r" type="int" value="255"/>
+    <param name="/turtlesim/background_g" type="int" value="255"/>
+    <param name="/turtlesim/background_b" type="int" value="255"/>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+    <service name="spawn" service="turtlesim/Spawn">
+
+    
+    <node name="turtle_reza1" pkg="nama_package" type="run1" output="screen"/>
+    <node name="turtle_reza2" pkg="nama_package" type="run2" output="screen"/>
+</launch>

@@ -1,0 +1,2 @@
+nama_package
+-DCATKIN_DEVEL_PREFIX=/home/rezaafzaal/ros/devel -DCMAKE_INSTALL_PREFIX=/home/rezaafzaal/ros/install -G Unix Makefiles

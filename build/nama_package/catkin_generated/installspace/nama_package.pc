@@ -1,0 +1,8 @@
+prefix=/home/rezaafzaal/ros/install
+
+Name: nama_package
+Description: Description of nama_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

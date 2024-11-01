@@ -1,0 +1,4 @@
+<launch>
+    <node name="publisher_test" pkg="nama_package" type="tes1" output="screen"/>
+    <node name="subscriber_test" pkg="nama_package" type="tes2" output="screen"/>
+</launch>
